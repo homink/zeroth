@@ -1,4 +1,4 @@
-export KALDI_ROOT=/path/to/kaldi
+export KALDI_ROOT=/home/kwon/3rdParty/kaldi_7e902f5/
 [ -f $KALDI_ROOT/tools/env.sh ] && . $KALDI_ROOT/tools/env.sh
 export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
 [ ! -f $KALDI_ROOT/tools/config/common_path.sh ] && echo >&2 "The standard file $KALDI_ROOT/tools/config/common_path.sh is not present -> Exit!" && exit 1
